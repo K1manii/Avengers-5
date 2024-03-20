@@ -1,0 +1,170 @@
+.header{
+    width: 100%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: radial-gradient(closest-side at 700px 280px,  red, black);
+    background-repeat: no-repeat;
+    height: 40px;
+}
+.navbar{
+	background-color: transparent;
+	font-family:calibri;
+	height: 75px;
+    width: 100%;
+
+}
+.navdiv{
+	display: flex;
+}
+.logo {
+	
+	line-height: 65px;
+	padding-left: 50px;
+}
+
+.navbar li{
+	list-style: none;
+}
+.navbar li a{
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	padding-left: 70px;
+
+}
+
+.navbar ul{
+	display: flex;
+	line-height: 70px;
+	padding-left: 300px;
+
+}
+
+
+.left{
+    float: right;
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+}
+.right{
+    float: left;
+    width: 50%;
+   color: white;
+   background-color: transparent;
+   margin-top: 40px;
+   height: 400px;
+}
+.footer{
+    width: 102%;
+    background-color: rgb(31, 31, 31);
+    margin-top: 25px;
+}
+
+
+
+
+.cards{
+    background-image: url(photos/gorvanance.jpeg);
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+   
+}
+h2{
+    font-size:x-large;
+    color:darkblue;
+   text-align: center;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.main{ 
+    background-color:white;
+    border: 2px solid whitesmoke;
+    margin: 7px;
+    box-shadow: 1px 1px 5px 1px black;
+  
+
+}
+
+
+button{
+    background-color: RED;
+    color: white;
+    margin-left: 100px;
+   
+}
+.card1{
+    background-image: url(photos/legislation.jpeg);
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+}
+.card2{
+    background-image:url(photos/contract.jpeg);
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+}
+.card3{
+    background-image:url(photos/effectively.jpeg);
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+}
+.all{
+    display: flex;
+    
+}
+
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content:center;
+    text-align: center;
+}
+.first{
+    text-align: center;
+}
+.card
+    {
+    margin: 20px;
+    padding: 50px;
+    width: 20%;
+    }    
+.button{
+    background-color: beige;
+    border-radius: 25px;
+    border: 0px;
+    padding: 5px;
+}
+.cardone{
+    width: 400px;
+    background-color: rgb(209, 209, 238);
+    min-height: 50px;
+}
+.cardtwo{
+    width: 400px;
+    background-color: rgb(209, 209, 238);
+    min-height: 100px;
+}
+.cardthree{
+    width: 400px;
+    background-color: rgb(209, 209, 238);
+    min-height: 100px;
+}
+.cardfour{
+    width: 400px;
+    background-color: rgb(209, 209, 238);
+    min-height: 100px;
+}
+.img{
+    background-color: whitesmoke;
+}
