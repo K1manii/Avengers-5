@@ -165,6 +165,14 @@ button{
     background-color: rgb(209, 209, 238);
     min-height: 100px;
 }
+.bottom{
+    height: 200px;
+    width:700px;
+   text-align: center;
+   background-color:skyblue;
+   font-size: xx-large;
+   border-radius: 20px;
+}
 .img{
     background-color: whitesmoke;
 }
